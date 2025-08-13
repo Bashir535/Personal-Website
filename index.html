@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bashir | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="bg-blobs"></div>
+
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="#hero">Bashir Moamer</a>
+
+      
+      <button id="menuToggle" class="icon-btn burger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul id="navLinks" class="nav-links">
+        <li><a class="nav-link" href="#hero">Home</a></li>
+        <li><a class="nav-link" href="#about">About</a></li>
+        <li><a class="nav-link" href="#education">Education</a></li>
+        <li><a class="nav-link" href="#projects">Projects</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="progress"></div>
+    </nav>
+  </header>
+
+  <section id="hero" class="hero fade-in">
+    <div class="hero-inner">
+      <p class="eyebrow">Hello, I’m</p>
+      <h1 class="title">
+        Bashir Moamer
+      </h1>
+      <p class="subtitle typewriter">
+        Aspiring Software Engineer • Full-Stack Developer
+      </p>
+      <div class="cta-row">
+        <a class="btn" href="#projects">View Projects</a>
+        <a class="btn ghost" href="mailto:bashirmoamer24@gmail.com">Contact Me</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section fade-in">
+    <h2 class="section-title">About Me</h2>
+    <div class="card split">
+      <div>
+        <p>
+          Hey there! I’m Bashir Moamer — a third-year Software Engineering student at
+          San José State University. I love building user-focused, full-stack apps and exploring AI.
+          I’m fluent in Java, Python, JavaScript, HTML/CSS, and comfortable with React and Node.js.
+        </p>
+        <p>
+           I am currently seeking internship opportunities to further explore my interests in software engineering, AI development, and collaborative technology. As well as to further enhance my abilities and gain positive experience. Please feel free to reach out via email:  <a href="mailto:bashirmoamer24@gmail.com">bashirmoamer24@gmail.com</a>.
+        </p>
+        <div class="chips">
+          <span class="chip">Java</span><span class="chip">Python</span><span class="chip">JavaScript</span>
+          <span class="chip">React</span><span class="chip">Node.js</span><span class="chip">HTML, CSS</span>
+        </div>
+   
+  </section>
+
+  <section id="education" class="section fade-in">
+    <h2 class="section-title">Education</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="dot"></div>
+        <div class="content card">
+          <h3>B.S. in Software Engineering</h3>
+          <p>San José State University — <em>Expected Spring 2027</em></p>
+          <p class="muted">Relevant Coursework: Data Structures & Algorithms, Intro to Software Engineering, Discrete Math, Calculus I–III, Physics I–II.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="dot"></div>
+        <div class="content card">
+          <h3>Skills</h3>
+          <p class="muted">Languages: Java, Python, JavaScript, HTML, CSS, C</p>
+          <p class="muted">Tools: React, Node.js, Git/GitHub, IntelliJ, Eclipse, Excel</p>
+          <p class="muted">Spoken Languages: English (Fluent), Arabic (Fluent), Spanish (Conversational)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section fade-in">
+    <h2 class="section-title">Projects</h2>
+
+    <div class="grid">
+      <article class="project card">
+        <div class="project-head">
+          <h3>Portfolio Website</h3>
+          <div class="tags"><span>HTML</span><span>CSS</span><span>JS</span></div>
+        </div>
+        <p>Personal site showcasing my work, background, and contact info.</p>
+      </article>
+
+      <article class="project card">
+        <div class="project-head">
+          <h3>Movie Generator</h3>
+          <div class="tags"><span> JS</span><span>CSS</span></div>
+        </div>
+        <p>Web app that recommends age-appropriate movies by favorite genre.</p>
+      </article>
+
+      <article class="project card">
+        <div class="project-head">
+          <h3>Autonomous Robot</h3>
+          <div class="tags"><span>C</span><span>VEX Cortex</span></div>
+        </div>
+        <p>Collaborated on sensor-driven obstacle detection, motion control, and logic.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="contact" class="section fade-in">
+    <h2 class="section-title">Contact</h2>
+    <div class="card">
+      <p>Email: <a href="mailto:bashirmoamer24@gmail.com">bashirmoamer24@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/bashir-moamer-40896123b/">https://www.linkedin.com/in/bashir-moamer-40896123b/</a></p>
+      <p>Phone: <a href="tel:+16692828116">+1 (669) 282-8116</a></p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <small>© 2025 Bashir </small>
+    <a class="to-top" href="#hero" aria-label="Back to top">↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
